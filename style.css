@@ -1,0 +1,154 @@
+body {
+  background-image: url("/images/Elwynn_Forest.jpg");
+  background-size: cover;
+  color : #D69823;
+  font-family: "Helvetica", serif;
+  margin: 0 auto;
+}
+
+
+/****** Header *****/
+
+.header {
+  text-align: center;
+  background-color: #271813;
+  padding : 5%;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 12%;
+  font-family: "Helvetica", sans-serif;
+  position: relative;
+  }
+
+.image_profil {
+  width: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left: 41%;
+}
+
+h1 {
+  margin-top: 150px;
+  color: white;
+  font-size: 30px;
+}
+
+#border_elit {
+  width: 200px;
+  position: absolute;
+  height: 150px;
+  left: 36%;
+  bottom: 54%;
+}
+
+/********** Network ********/
+
+ul {
+  position: center;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  position: center;
+}
+
+/********* Table ********/
+
+table {
+  text-align: center,
+  padding : 5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+tbody {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D69823;
+  background-color: #271813
+}
+
+th {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D69823;
+  background-color: #271813
+}
+
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  position: center;
+}
+
+#header_left {
+  border-top-left-radius: 5%
+}
+
+#header_right {
+  border-top-right-radius: 5%
+}
+
+.img_passion {
+  width: 80px;
+  height: 70%;
+  border-radius: 5px
+}
+
+/****** Footer **** **/
+
+.foot {
+  height: 80px;
+  background-color: #271813;
+  text-align: center;
+  position: relative;
+  bottom: 1px;
+}
+
+.img_foot {
+  width : 60px;
+}
+
+/* ********************************** */
+
+ /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-google {
+  background: red;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
