@@ -6,7 +6,6 @@ body {
   margin: 0 auto;
 }
 
-
 /****** Header *****/
 
 .header {
@@ -97,6 +96,15 @@ th, td {
   width: 80px;
   height: 70%;
   border-radius: 5px
+}
+
+td > a {
+  text-decoration: none;
+  color: #D69823;
+}
+
+td > a:hover {
+  text-decoration : underline;
 }
 
 /****** Footer **** **/
